@@ -41,156 +41,150 @@
 } */
 
 .carousel-item img {
-    height: 500px;
-    object-fit: cover;
+  height: 500px;
+  object-fit: cover;
 }
 .navbar-collapse {
-    flex-grow: 0;
+  flex-grow: 0;
 }
-.carousel-item h5{
-    font-size: 3rem;
-}
-
-.carousel-item p{
-    font-size: 1.5rem;
+.carousel-item h5 {
+  font-size: 3rem;
 }
 
-.carousel-item button:first-child{
-    border: #028bf8 0.3px double;
-    padding: 6px 13px;
-    background-color: rgba(3, 3, 49, 0);
-    color: #fff;
-    border-radius: 10px;
-    transition: 1s ease-in-out;
-    
+.carousel-item p {
+  font-size: 1.5rem;
 }
-.carousel-item button:first-child:hover{
-  
-    background-color: #8a1cf6;
-  
-    
+
+.carousel-item button:first-child {
+  border: #028bf8 0.3px double;
+  padding: 6px 13px;
+  background-color: rgba(3, 3, 49, 0);
+  color: #fff;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+}
+.carousel-item button:first-child:hover {
+  background-color: #8a1cf6;
 }
 /* Sub-Hero section */
 .sub-hero {
-    background-color: #7c09e4;
-    color: white;
-    text-align: center;
-   
+  background-color: #7c09e4;
+  color: white;
+  text-align: center;
 }
-.sub-hero .row:last-child div{
-    height: 20px;
-    background-color: #06bc7c;
-}
-
-.sub-hero .row:last-child div:last-child{
-    height: 20px;
-    background-color: #4f9ce8;
+.sub-hero .row:last-child div {
+  height: 20px;
+  background-color: #06bc7c;
 }
 
-
-.sub-hero h1{
-    font-weight: 900;
-    background-color: transparent;
-     background-image: url(imagies/WhatsApp\ Image\ 2026-09-14\ at\ 8.51.15\ AM.jpeg);
-    background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    background-position: bottom;
-    color: rgb(225, 225, 225, 0.163);
-    font-size: 3.5rem;
+.sub-hero .row:last-child div:last-child {
+  height: 20px;
+  background-color: #4f9ce8;
 }
 
-
-.carousel-item button:last-child{
-    border: none;
-    padding: 6px 13px;
-    background-color: #8a1cf6;
-    color: #fff;
-    border-radius: 10px;
-    transition: all 0.6s linear;
-    
+.sub-hero h1 {
+  font-weight: 900;
+  background-color: transparent;
+  background-image: url(imagies/WhatsApp\ Image\ 2026-09-14\ at\ 8.51.15\ AM.jpeg);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-position: bottom;
+  color: rgb(225, 225, 225, 0.163);
+  font-size: 3.5rem;
 }
-.carousel-item button:last-child:hover{
 
-    background-color: #06bc7c;
+.carousel-item button:last-child {
+  border: none;
+  padding: 6px 13px;
+  background-color: #8a1cf6;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.6s linear;
+}
+.carousel-item button:last-child:hover {
+  background-color: #06bc7c;
 }
 
 .carousel-caption {
-    bottom: 30%;
+  bottom: 30%;
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.712);
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 /* About Section */
 
-.about{
-    background: linear-gradient(to right, rgb(18, 143, 135), rgba(32, 4, 175, 0.461));
-    margin: 0;
-    padding: 0;
+.about {
+  background: linear-gradient(
+    to right,
+    rgb(18, 143, 135),
+    rgba(32, 4, 175, 0.461)
+  );
+  margin: 0;
+  padding: 0;
 }
 
-.about .row h2{
-    font-size: 800;
-    color: #8a1cf6;
-    font-family: 'Courier New', Courier, monospace;
-
+.about .row h2 {
+  font-size: 800;
+  color: #8a1cf6;
+  font-family: "Courier New", Courier, monospace;
 }
-.about .row p{
-font-family: 'Courier New', Courier, monospace;
-font-size: 19px;
-font-weight: 500;
-opacity: 1.65;
+.about .row p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 19px;
+  font-weight: 500;
+  opacity: 1.65;
 }
 
 .about .row blockquote {
-    background-color: #9adcedb6;
-    border-left: 10px solid #a1ddec;
-    padding: 10px 5px;
-    font-weight: 400;
-    font-family: 'Courier New', Courier, monospace;
+  background-color: #9adcedb6;
+  border-left: 10px solid #a1ddec;
+  padding: 10px 5px;
+  font-weight: 400;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .about .row:last-child {
-    background-color: #9adcedb6;
-    font-size: 2rem;
-    color: #7c09e4;
-    margin-bottom: 0;
-    font-weight: 100;
+  background-color: #9adcedb6;
+  font-size: 2rem;
+  color: #7c09e4;
+  margin-bottom: 0;
+  font-weight: 100;
 }
 
 .about .row:last-child div {
-    border-right: 1px dashed #7c09e4;
-    padding: 0.65rem;
-} 
+  border-right: 1px dashed #7c09e4;
+  padding: 0.65rem;
+}
 
 .about .row:last-child div:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 /* About Section2 */
 .aboutsection-2 .row span {
-    font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 10px;
-    font-weight: 400;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 10px;
+  font-weight: 400;
 }
 
 .aboutsection-2 .row h4 {
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 20px;
-    font-weight: 400;
-    letter-spacing: -2px;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 20px;
+  font-weight: 400;
+  letter-spacing: -2px;
 }
 
 .aboutsection-2 .row h2 {
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 0px;
-    font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 0px;
+  font-weight: 200;
 }
 
 /* .aboutsection-2 .row{
@@ -199,76 +193,119 @@ opacity: 1.65;
 } */
 
 .aboutsection-2 .row p {
-    font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 10px;
-    font-weight: 400;
-
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 10px;
+  font-weight: 400;
 }
-.row-edit > div{
-    border: 1px solid white;  
-    padding: 20px;   
-}
-
-
-.row-edit > div:nth-child(odd){
-    border-left: none;  
-    border-bottom: none;
+.row-edit > div {
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  padding: 20px;
 }
 
-.row-edit > div:nth-child(even){
-    border-right: none;
-    border-bottom: none;
+.row-edit > div:nth-child(odd) {
+  border-left: none;
+  border-bottom: none;
 }
 
-footer .row:last-child{
-    border-top: solid 1px #8a1cf6;
+.row-edit > div:nth-child(even) {
+  border-right: none;
+  border-bottom: none;
+}
+/* Venue Section */
+
+.venue h2 {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
 }
 
-footer .row:first-child div{
-    margin-bottom: 20px;
+.venue p,
+h6 {
+  font-family: "Courier New", Courier, monospace;
 }
-footer .row p{
-    font-family: 'Courier New', Courier, monospace;
+
+.venue img {
+  padding: 10px;
+}
+.venue iframe {
+  width: 100%;
+  padding: 4px;
+  border: 20px;
+}
+
+.venue h6:nth-of-type(2) {
+  border-bottom: 1px solid rgba(241, 236, 236, 0.144);
+  padding: 4px;
+}
+
+.venue p:nth-of-type(n + 3) {
+  border-bottom: 1px solid rgba(252, 250, 250, 0.192);
+  padding: 4px;
+}
+
+/* FAQS Section */
+
+/* Footer Section */
+
+footer .row:last-child {
+  border-top: solid 1px #8a1cf6;
+}
+
+footer .row:first-child div {
+  margin-bottom: 20px;
+}
+footer .row p {
+  font-family: "Courier New", Courier, monospace;
 }
 
 .speaker {
-    background: linear-gradient(to right, blue, purple);
-    color: white;
+  background: linear-gradient(to right, blue, purple);
+  color: white;
 }
 
-.speaker .row span{
-    font-size: 13px;
-    letter-spacing: 2px;
-    color: #ffffffd6;
-    font-family: 'Courier New', Courier, monospace;
+.speaker .row span {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #ffffffd6;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.speaker .row h2{
-    font-size: 55px;
-    line-height: 1;
-    font-weight: 400;
-    letter-spacing: -2px;
-    font-family: 'Courier New', Courier, monospace;
+.speaker .row h2 {
+  font-size: 55px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -2px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .speaker > .row p {
-    max-width: 800px;
-    color: #fff;
-    font-size: 17px;
-    line-height: 1.7;
-    font-family: 'Courier New', Courier, monospace;
+  max-width: 800px;
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.7;
+  font-family: "Courier New", Courier, monospace;
 }
-
 
 .speaker-control {
-    width: 45px;
-    height: 45px;
-    top: auto;
-    bottom: -70px;
-    opacity: 1;
-    border: 1px solid black;
+  width: 45px;
+  height: 45px;
+  top: auto;
+  bottom: -70px;
+  opacity: 1;
+  border: 1px solid rgba(237, 222, 222, 0.758);
 }
-.speaker > img{
-    width: 100%;
-    height: 100%;
+.speaker img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.carousel-control-prev {
+  left: auto;
+  right: 55px;
+}
+
+.carousel-control-next {
+  right: 0;
 }
